@@ -25,7 +25,7 @@ These ones are not:
 
 If we have a reference to another window (a popup or iframe), and that window comes from the same origin, then we can do everything with it.
 
-Otherwise, we can only change its location. Please note: not *read*, but modify it, redirect it to another place. That's possible, because such action does not reveal any data. Also such windows windows may exchange messages. Soon about that later.
+Otherwise, we can only change its location. Please note: not *read*, but modify it, redirect it to another place. That's possible, because such action does not reveal any data. Also such windows may exchange messages. Soon about that later.
 
 ````warn header="Exclusion: subdomains may be same-origin"
 
